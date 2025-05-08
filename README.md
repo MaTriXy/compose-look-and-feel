@@ -24,23 +24,6 @@ If you don't need these icons for platform other than iOS, you can use ios bundl
 - `cupertino-decompose` - iOS-like swipe-back animation for the 'predictive back' navigation feature of the [Decompose](https://github.com/arkivanov/Decompose) library + `NativeChildren` wrapper over `UINavigationController`.
 Provides native-feeling or truly native page transitions and swipe gestures.
 
-## Installation
-
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.alexzhirkevich/cupertino/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.alexzhirkevich/cupertino)
-
-> [!IMPORTANT]  
-> The project is in the experimental phase. All APIs can change incompatibly or be dropped without the deprecation cycle!
-
-Add the dependency to your `build.gradle.kts` file.
-
-| Module                     | Dependency                                                    |
-|----------------------------|---------------------------------------------------------------|
-| `cupertino`                | `io.github.alexzhirkevich:cupertino:<version>`                |
-| `cupertino-native`         | `io.github.alexzhirkevich:cupertino-native:<version>`         |
-| `cupertino-adaptive`       | `io.github.alexzhirkevich:cupertino-adaptive:<version>`       |
-| `cupertino-decompose`      | `io.github.alexzhirkevich:cupertino-decompose:<version>`      |
-| `cupertino-icons-extended` | `io.github.alexzhirkevich:cupertino-icons-extended:<version>` |
-
 # Usage
 
 To use iOS-like widgets with Compose Cupertino and view available components, see [Cupertino](docs/Cupertino.md).
